@@ -1,7 +1,20 @@
 .choresText {
-   color: black;
+   font-size: large;
+   color: #A04030;
+   font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   font-size: x-large;
+   color: #A04030;
+   text-decoration: underline;
+   text-align: left;
+   padding-left: 20px;
+}
+
+.container {
+   background-image: linear-gradient(20deg, #FBB03B, #D4145A);
+   border-bottom: 5px solid #A04030;
+   border-top: 20px solid #A04030;
 }

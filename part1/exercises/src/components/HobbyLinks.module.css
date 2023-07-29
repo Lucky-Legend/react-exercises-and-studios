@@ -1,0 +1,33 @@
+.hobbyText {
+    display: flex;
+    justify-content: left;
+    font-size: large;
+    color: purple;
+    list-style-type: none;
+    
+
+}
+
+.hobbyHeader {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: purple;
+    padding-left: 20px;
+    text-decoration: underline ;
+}
+
+li {
+    margin-right: 15px;
+}
+
+li:hover {
+    transform: scale(101%);
+}
+
+a {
+    text-decoration: none;
+    border: 3px solid purple;
+    border-radius: 5px;
+    padding: 0 5px 3px 5px;
+}

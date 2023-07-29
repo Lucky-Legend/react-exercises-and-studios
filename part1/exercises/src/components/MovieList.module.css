@@ -1,7 +1,14 @@
 .movieText {
-   color: black;
+   color: #3040A0;
+   text-align: left;
+   font-size: large;
 }
 
 .movieHeading {
-   color: black;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #3040A0;
+   text-decoration: underline;
+   text-align: left;
+   font-size: x-large;
+   padding-left: 20px;
 }

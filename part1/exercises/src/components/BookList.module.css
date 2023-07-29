@@ -1,0 +1,19 @@
+.imgSize {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+
+}
+
+.bookHeading {
+    color: indigo;
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.bookContent {
+    display: flex;
+    justify-content: left;   
+}
