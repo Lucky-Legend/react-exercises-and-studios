@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Kitchen Renovation",
+      "description": "Complete overhaul of kitchen with new cabinets, countertops, and appliances.",
+      "image": "https://images.ctfassets.net/7rldri896b2a/4BPRFvvgspEZJ1VSH38xkH/b79caa38646dddf33a907d91ba82f71c/KI-HERO-DreamKitchenDSKsat.jpg",
+      "date": "2023-08-15"
+    },
+    {
+      "title": "Bathroom Remodel",
+      "description": "Upgrading bathroom fixtures, tiles, and adding modern design elements.",
+      "image": "https://www.jkath.com/wp-content/uploads/2020/10/10-BATHROOM-REMODEL-DESIGN-IDEAS-.jpeg",
+      "date": "2023-09-02"
+    },
+    {
+      "title": "Deck Expansion",
+      "description": "Extending and enhancing outdoor deck for more space and improved aesthetics.",
+      "image": "https://customcraftdbr.com/wp-content/uploads/2021/03/DJI_0046.jpg",
+      "date": "2023-07-20"
+    },
+    {
+      "title": "Basement Finishing",
+      "description": "Transforming the basement into a functional living space with rooms and entertainment areas.",
+      "image": "https://www.erieinsurance.com/-/media/images/blog/articlephotos/2022/2022_eriesenseblog-finishbasement_lg.jpg?iar=0&rev=c38f57986f9c4dd494808dc7da1e1555&hash=E7FA2EB53BF7676F2CFD3B25A75B8A73",
+      "date": "2023-08-25"
+    },
+    {
+      "title": "Exterior Landscaping",
+      "description": "Revamping the front and backyard landscaping with new plants, pathways, and lighting.",
+      "image": "https://www.homestratosphere.com/wp-content/uploads/2019/12/japanese-landscaping-dec022019-min-870x580.jpg.webp",
+      "date": "2023-09-10"
+    }
+  ]
+}
