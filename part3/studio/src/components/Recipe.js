@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.thechunkychef.com/family-favorite-baked-mac-and-cheese/";
+   let authorPhoto = "https://www.thechunkychef.com/wp-content/uploads/2021/02/sidebar.jpg";
+   let authorName = "The Chunky Chef";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["dried elbow pasta", "unsalted butter", "all purpose flour", "whole milk", "half and half"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Creamy Baked Mac and Cheese</h1>
+            <p>Homemade mac and cheese. Yum!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.thechunkychef.com/wp-content/uploads/2018/02/Ultimate-Creamy-Baked-Mac-and-Cheese-serving-1024x1536.jpg" alt="cheesy goodness" className="imageUpdates"/>
    );
 }
 

@@ -2,10 +2,16 @@ import { useState } from 'react';
 
 export default function StatusChange () {
 
+   let [notes , setNotes] = useState("");
+   let [recipeStatus, setRecipeStatus] = useState(false);
+
    const handleChange = (event) => {
+      setNotes(event.target.value);
    }
 
    const handleSubmit = (event) => {
+      event.preventDefault();
+      setRecipeStatus(true);
    }
 
    return (
@@ -15,10 +21,10 @@ export default function StatusChange () {
             </label>
             <input type="submit" />
          </form>
+         
+         <p>{ notes.length ? notes : "My Recipe Notes aren't here!"}</p>
 
-         <p>My Recipe Notes aren't here!</p>
-
-         <p>I have not tried this recipe!</p>
+         <p>{ recipeStatus ? "I have tried this recipe!" :"I have not tried this recipe!"}</p>
       </div>
    );
 }
